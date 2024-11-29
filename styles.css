@@ -1,0 +1,130 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 1300px;
+    height: 60px;
+    background-color: #D7719B;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: orange;
+}
+
+
+.header {
+    width: 1300px;
+    height: 700px;
+    margin: 30px auto; /* 左右居中，底部留出30px */
+    background: url('/imgs/wy.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* 可选，用于调试 */
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* 可选：为图片增加圆角效果 */
+}
+/* 内容区域 */
+.content {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+/* 第二区域 */
+.text-area {
+    width: 1300px;
+    height: 300px;
+    margin: 30px auto 0;
+    background: url('/imgs/anime-8788959_1280.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: white;
+    margin: 5px 0;
+}
+
+/* 最後 */
+.footer {
+    width: 1300px;
+    height: 100px;
+    margin: 30px auto 0;
+    background-color: #D7719B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
